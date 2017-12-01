@@ -38,6 +38,8 @@ public class JSONLoaderTest {
         // Assert size is 2
         assertEquals("Testing list size is 2.", 2, testList.size());
 
-
+        // First event should be Blink 182
+        MusicEvent event1 = testList.get(0);
+        assertEquals("Testing title.", "Blink 183", event1.getTitle());
     }
 }
